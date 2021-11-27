@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descarte de Lixo</title>
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+     <link rel="icon" type="image/png" href="img/icon.png">
+     <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="index.html">
+            <img src="img/logo.png" width="112" height="28">
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a href="#home"class="navbar-item">
+              HOME
+            </a>
+      
+            <a href="#sobre" class="navbar-item">
+              SOBRE
+            </a>
+
+            <a href="#descartes" class="navbar-item">
+                Formas de Descartes
+              </a>
+    
+          </div>
+      
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a href="cadastrar.html" class="button is-primary">
+                  <strong>CADASTRO</strong>
+                </a>
+                <a href="login.html" class="button is-light">
+                  LOGIN
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Banner -->
+      <section class="banner" id="home">
+        <div class="banner-align">
+            <h1>Descarte de Lixo <br> conciente</h1>
+            <a href="cadastrar.html"><input type="button" value="CADASTRAR"></a>
+        </div>
+      </section>
+
+      <!-- Sobre -->
+      <section class="hero is-link" id="sobre">
+        <div class="hero-body" style="margin: 0 10%; text-align: justify; line-height: 80%;">
+          <p class="title">
+            SOBRE NÓS
+          </p>
+          <p class="subtitle">
+            O projeto foi construido, visando auxiliar na forma correta de descarte de lixo. Como sabemos, os índices de descarte de lixo de forma inadequada, tem prejudicado diversos segmentos da nossa sociedade, tais como: florestas, mares, praias, esgotos, ou seja, o meio ambiente em geral. Portanto, a preservação do meio ambiente, por meio de um descarte adequado, se faz de suma importância, para um mundo de sustentabilidade (pensando nas gerações futuras) e visando os animais que nele habitam (que são responsáveis por funções na natureza).
+          </p>
+        </div>
+      </section>
+
+      <!-- Formas de descartes: Cards -->
+      <section class="hero is-small is-primary" style="text-align: center; padding: 10px;" id="descartes">
+        <div class="hero-body">
+          <p class="title">
+            Formas de Descartes
+          </p>
+      </section>
+    <section class="card_disciplinas">
+        <!-- AZUL: papel/papelão -->
+        <div class="card">   
+            <img src="img/lixo_azul.jpg" alt="AZUL: papel/papelão" class="card_img">
+            <h4>AZUL: papel/papelão</h4>
+        </div>
+        <!-- VERDE: vidro -->
+        <div class="card">   
+            <img src="img/lixo_verde.png" alt="VERDE: vidro" class="card_img">
+            <h4>VERDE: vidro</h4>
+        </div>
+        <!-- AMARELO: metal -->
+        <div class="card">   
+            <img src="img/lixo_amarelo.jpg" alt="AMARELO: metal" class="card_img">
+            <h4>AMARELO: metal</h4>
+        </div>
+        <!-- PRETO: madeira -->
+        <div class="card">   
+            <img src="img/lixo_preto.jpg" alt="PRETO: madeira" class="card_img">
+            <h4>PRETO: madeira</h4>
+        </div>
+        <!-- LARANJA: resíduos perigosos -->
+        <div class="card">   
+            <img src="img/lixo_laranja.jpg" alt="LARANJA: resíduos perigosos" class="card_img">
+            <h4>LARANJA: resíduos perigosos (como pilhas e baterias)</h4>
+        </div>
+        <!-- BRANCO: resíduos de hospitais e serviço de saúde -->
+        <div class="card">   
+            <img src="img/lixo_branco.png" alt="BRANCO: resíduos de hospitais e serviço de saúde" class="card_img" style="width: 150px; margin-left: 50px;">
+            <h4>BRANCO: resíduos de hospitais e serviço de saúde</h4>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="hero is-danger" style="text-align: center; margin-top: 50px;">
+        <div class="hero-body">
+          <p class="title" style="font-size: 15px;">
+            ©Todos os direitos reservados a Carolina Bessera!
+          </p>
+        </div>
+      </section>
+      
+      <script src="js/menu.js"></script>
+</body>
+</html>

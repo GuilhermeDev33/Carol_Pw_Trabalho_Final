@@ -1,0 +1,73 @@
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.banner .banner-align{
+    max-width: 300px;
+    display: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    
+}
+
+.banner .banner-align h1{
+    padding-top: 70%;
+    font: 25px arial black;
+    color: black;
+    text-align: center;
+}
+
+.banner .banner-align input{
+    padding: 10px;
+    width: 200px;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/* CARD */
+
+.card_disciplinas{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.card_disciplinas .card{
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.card_disciplinas .card:hover{
+    transform: scale(1.05)
+}
+
+.card_disciplinas .card .card_img{
+    width: 250px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.card_disciplinas .card h4{
+    width: 100%;
+    background-color: var(--bg-color);
+    color: var(--font-color_w);
+    margin: 0;
+    margin-top: -6px;
+    padding: 10px 0px;
+    text-align: center;
+}
